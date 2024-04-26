@@ -1,0 +1,86 @@
+body {
+    font-family: __GeistMono_8a4d12, ui-monospace, SFMono-Regular, Roboto Mono, Menlo, Monaco, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+div[id^="about-me"],
+div[id^="education"],
+div[id^="experience"],
+div[id^="activities"],
+div[id^="skills"] {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+div[id^="about-me"] h1,
+div[id^="education"] h1,
+div[id^="experience"] h1,
+div[id^="activities"] h1,
+div[id^="skills"] h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: ;
+    padding: ;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
